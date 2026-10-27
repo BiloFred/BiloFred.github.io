@@ -10,19 +10,19 @@
 </head>
 
 <body>
-    <header class="header" data-component="Header" data-treshold="0.2">
+    <header class="header" data-treshold="0.2"> <!--data-component="Header" -->
         <div class="wrapper">
 
 
-            <a href="" class="logo">
+            <a href="404.html" class="logo">
                 <img src="../assets/images/signature.png" alt="logo Frédéric Bilodeau">
             </a>
 
             <ul class="header-ul1">
-                <li class="header-li"><a href="#accueil">Accueil</a></li>
-                <li class="header-li"><a href="#projet">Projets</a></li>
-                <li class="header-li"><a href="#propos">À propos</a></li>
-                <li class="header-li"><a href="#contact">Contact</a></li>
+                <li class="header-li"><a href="index.html#accueil">Accueil</a></li>
+                <li class="header-li"><a href="index.html#projet">Projets</a></li>
+                <li class="header-li"><a href="index.html#propos">À propos</a></li>
+                <li class="header-li"><a href="index.html#contact">Contact</a></li>
             </ul>
 
             <ul class="header-ul2">
@@ -51,8 +51,9 @@
         </div>
     </header>
 
-
     <section class="hero" id="accueil">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
         <div class="wrapper">
             <div class="hero__content">
                 <div class="titres">
@@ -65,39 +66,35 @@
                 <p>
                     Je veux aider des entreprises de
                     <span>jeux vidéo</span>
-                    avec des designs de jeu ou des interfaces
-                    utilisateur intéressantes grâce à mon expérience
-                    acquise en aidant des développeurs Roblox à tester
+                    avec des designs de jeu ou des interfaces utilisateur intéressantes grâce à mon expérience acquise en aidant des développeurs Roblox à tester
                     leurs jeux et en apprenant des compétences
                     <span>UX</span>
                     dans le programme d’intégration en multimédia.
                 </p>
 
                 <div class="buttons">
-                    <a href="" class="btn-primary">
-                        Voir mes projets →
-                    </a>
-                    <a href="" class="btn-secondary">
-                        Présentation Vidéo →
-                    </a>
+                    <a href="" class="btn-primary">Voir mes projets →</a>
+                    <a href="" class="btn-secondary">Présentation Vidéo →</a>
                 </div>
             </div>
-
-
 
             <div class="hero__media">
                 <div class="linev"></div>
                 <div class="flex-hero">
-                    <img src="assets/images/fred.png" alt="Photo de Frédéric Bilodeau" />
+                    <div class="photo">
+                        <img src="assets/images/fred.png" alt="Photo de Frédéric Bilodeau" />
+
+                        <div class="aurar"></div>
+                        <div class="auraj"></div>
+                    </div>
+
                     <p>Crédit Image: Marie Lambert</p>
                     <div class="lineh"></div>
                 </div>
-
             </div>
-
         </div>
+        <div class="rect3"></div>
     </section>
-
 
     <section class="projets" id="projet">
         <div class="wrapper">
@@ -108,6 +105,7 @@
                     <div class="projet">
                         <div class="card__media">
                             <img src="assets/images/hippochaos.png" alt="hippochaos" />
+                            <div class="aurar"></div>
                         </div>
                         <div class="card__content">
                             <h3>Design UI/UX d’un jeu fictif d’hippopotame</h3>
@@ -115,7 +113,9 @@
 
                             <p>Une interface de jeu conçue pour un joueur exploratif et créatif.</p>
                             <div class="btn-et-icon">
-                                <a href="https://www.behance.net/gallery/257328675/Processus-de-cration-dHyppoChaos" class="btn-secondary" target="_blank">Voir le projet -></a>
+                                <a href="https://www.behance.net/gallery/257328675/Processus-de-cration-dHyppoChaos" class="btn-secondary" target="_blank">
+                                    Voir le projet ->
+                                </a>
                                 <div class="icones">
                                     <img src="assets/icons/chatgpt.svg" alt="Chat GPT" />
                                     <img src="assets/icons/figma.svg" alt="Figma" />
@@ -140,12 +140,15 @@
 
                             <p>Une campagne captivante créée pour sensibiliser le sujet de la déforestation.</p>
                             <div class="btn-et-icon">
-                                <a href="https://www.behance.net/gallery/257519327/Design-UIUX-dune-campagne-fictive" class="btn-secondary" target="_blank">Voir le projet -></a>
+                                <a href="https://www.behance.net/gallery/257519327/Design-UIUX-dune-campagne-fictive" class="btn-secondary" target="_blank">
+                                    Voir le projet ->
+                                </a>
                                 <img src="assets/icons/figma.svg" alt="Figma" />
                             </div>
                         </div>
                         <div class="card__media">
                             <img src="assets/images/jourterre.png" alt="Campagne Jour de la Terre" />
+                            <div class="auraj"></div>
                         </div>
                     </div>
                 </div>
@@ -154,6 +157,7 @@
                     <div class="projet">
                         <div class="card__media">
                             <img src="assets/images/roblox.png" alt="Jeux Roblox" />
+                            <div class="aurar"></div>
                         </div>
                         <div class="card__content">
                             <h3>QA, Design et Équilibrage de jeux</h3>
@@ -192,6 +196,7 @@
                         </div>
                         <div class="card__media">
                             <img src="assets/images/video.png" alt="Vidéo Personelle" />
+                            <div class="auraj"></div>
                         </div>
                     </div>
                 </div>
@@ -200,6 +205,7 @@
                     <div class="projet">
                         <div class="card__media">
                             <img src="assets/images/pinball.png" alt="Pinball" />
+                            <div class="aurar"></div>
                         </div>
                         <div class="card__content">
                             <h3>Animation 3D d’une machine à boule</h3>
@@ -207,7 +213,9 @@
 
                             <p>Contribution d’un projet de groupe nommé “Route vers l’infini”.</p>
                             <div class="btn-et-icon">
-                                <a href="https://www.behance.net/gallery/257519949/Animation-3D-dune-machine-a-boule" class="btn-secondary" target="_blank">Voir le projet -></a>
+                                <a href="https://www.behance.net/gallery/257519949/Animation-3D-dune-machine-a-boule" class="btn-secondary" target="_blank">
+                                    Voir le projet ->
+                                </a>
                                 <div class="icones">
                                     <img src="assets/icons/chatgpt.svg" alt="Chat GPT" />
                                     <img src="assets/icons/figma.svg" alt="Figma" />
@@ -229,13 +237,22 @@
                     <span>création de média,</span>
                     qui préfère l’efficacité à la complexité.
                 </h3>
+                <div class="rect1"></div>
             </div>
         </div>
     </section>
 
     <section class="a-propos" id="propos">
         <div class="wrapper">
-            <h2>À propos de moi...</h2>
+            <div class="cercle-r"></div>
+            <div class="carre-j"></div>
+            <div class="triangle-j"></div>
+            <div class="triangle-r"></div>
+            <div class="title">
+                <div class="lineh one"></div>
+                <h2>À propos de moi...</h2>
+                <div class="lineh two"></div>
+            </div>
 
             <div class="moi">
                 <div class="competences">
@@ -249,6 +266,7 @@
                         <p>Animation 2D</p>
                     </div>
                 </div>
+                <div class="deco1"></div>
 
                 <div class="logiciels">
                     <h3>Mes logiciels maîtrisés</h3>
@@ -261,6 +279,8 @@
                         <p>Blender</p>
                     </div>
                 </div>
+                <div class="deco2"></div>
+                <div class="deco3"></div>
 
                 <div class="langages">
                     <h3>Mes langages maîtrisés</h3>
@@ -271,9 +291,11 @@
                     </div>
                 </div>
 
+                <div class="deco4"></div>
+
                 <div class="humans">
                     <h3>Mes qualités humaines</h3>
-                    <div class="grid2">
+                    <div class="grid3">
                         <p>Empathie</p>
                         <p>Créativité</p>
                         <p>Ouverture à la critique</p>
@@ -281,48 +303,68 @@
                 </div>
             </div>
 
-            <h2>Ce que j'aime faire</h2>
+            <h2 class="aime">Ce que j'aime faire</h2>
 
-            <div class="hobby">
-                <div class="cards-hobby">
-                    <div class="card__media">
-                        <img src="assets/images/roblox.png" alt="Jeux Roblox" />
+            <div class="mes-hobby">
+                <div class="bg-hobby"></div>
+                <div class="hobby">
+                    <div class="cards-hobby">
+                        <div class="card__media">
+                            <div class="hobby-bg-r"></div>
+                            <div class="hobby-bg-j"></div>
+                            <img src="assets/images/roblox.png" alt="Jeux Roblox" />
+                        </div>
+
+                        <div class="card__content">
+                            <h3>Jeux vidéo</h3>
+                        </div>
                     </div>
 
-                    <div class="card__content">
-                        <h3>Jeux vidéo</h3>
-                    </div>
-                </div>
+                    <div class="cards-hobby">
+                        <div class="card__media">
+                            <div class="hobby-bg-r"></div>
+                            <div class="hobby-bg-j"></div>
+                            <img src="assets/images/roblox.png" alt="Jeux Roblox" />
+                        </div>
 
-                <div class="cards-hobby">
-                    <div class="card__media">
-                        <img src="assets/images/roblox.png" alt="Jeux Roblox" />
-                    </div>
-
-                    <div class="card__content">
-                        <h3>Écouter de la musique</h3>
-                    </div>
-                </div>
-
-                <div class="cards-hobby">
-                    <div class="card__media">
-                        <img src="assets/images/roblox.png" alt="Jeux Roblox" />
+                        <div class="card__content">
+                            <h3>Écouter de la musique</h3>
+                        </div>
                     </div>
 
-                    <div class="card__content">
-                        <h3>Divertir le monde</h3>
+                    <div class="cards-hobby">
+                        <div class="card__media">
+                            <div class="hobby-bg-r"></div>
+                            <div class="hobby-bg-j"></div>
+                            <img src="assets/images/roblox.png" alt="Jeux Roblox" />
+                        </div>
+
+                        <div class="card__content">
+                            <h3>Divertir le monde</h3>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <h2>Mais concrètement, qui est Frédéric Bilodeau?</h2>
+            <h2 class="fred">Mais concrètement, qui est Frédéric Bilodeau?</h2>
 
-            <!-- video -->
+            <div class="video" data-component="Youtube" data-video-id="SCwcJsBYL3o">
+                <div class="video__media js-video">
+                    <div class="video-bg-r"></div>
+                    <div class="video-bg-j"></div>
+                    <img class="js-poster" src="assets/images/roblox.png" alt="Spectacle de musique" />
+                    <img src="assets/icons/play.png" alt="Bouton Play" class="icon" />
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="recherche" id="contact">
         <div class="wrapper">
+            <div class="bg-bleu"></div>
+            <div class="bg-bleu2"></div>
+            <div class="cercle-j"></div>
+            <div class="carre-r"></div>
             <div class="rectangle">
                 <h2>À la recherche d'un stage en...</h2>
             </div>
