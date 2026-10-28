@@ -10,7 +10,7 @@
    COLORS / SETTINGS
    ========================================================================== */
 :root {
-  --color-white: #eee;
+  --color-white: #eee; 
   --color-black: #1a1a1a;
   --color-primary: #cb180b;
   --color-bg-primary: var(--color-white);
