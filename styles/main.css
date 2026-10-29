@@ -941,11 +941,17 @@ a.disabled {
   background-color: var(--color-bg-secondary);
   color: var(--color-white);
   border-bottom: 10px solid var(--color-black);
+  transition: all ease-out 0.4s;
 }
 @media (width <= 375px) {
   .projets .wrapper .projet-card1 .projet {
     flex-direction: column;
   }
+}
+.projets .wrapper .projet-card1 .projet:hover {
+  transform: scale(1.2, 1.2);
+  transition: all ease-out 0.4s;
+  cursor: pointer;
 }
 .projets .wrapper .projet-card2 {
   width: 100%;
@@ -969,11 +975,17 @@ a.disabled {
   background-color: var(--color-bg-secondary);
   color: var(--color-white);
   border-bottom: 10px solid var(--color-black);
+  transition: all ease-out 0.4s;
 }
 @media (width <= 375px) {
   .projets .wrapper .projet-card2 .projet {
     flex-direction: column-reverse;
   }
+}
+.projets .wrapper .projet-card2 .projet:hover {
+  transform: scale(1.2, 1.2);
+  transition: all ease-out 0.4s;
+  cursor: pointer;
 }
 .projets .wrapper .card__media {
   width: 40%;
