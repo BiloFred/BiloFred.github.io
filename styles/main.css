@@ -1055,44 +1055,6 @@ a.disabled {
   align-items: center;
   justify-content: center;
 }
-.projets .rectangle {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  position: relative;
-  width: 55%;
-  background-color: var(--color-white);
-  text-align: center;
-}
-.projets .rectangle span {
-  color: var(--color-primary);
-}
-.projets .rectangle {
-  padding: 20px;
-}
-@media (width <= 375px) {
-  .projets .rectangle {
-    width: 100%;
-    margin-top: 100px;
-  }
-}
-.projets .rect1 {
-  background-color: var(--color-bg-secondary);
-  height: 300px;
-  width: 500%;
-  position: absolute;
-  top: -100px;
-  left: -1000px;
-  z-index: -1;
-  rotate: -3deg;
-}
-@media (width <= 375px) {
-  .projets .rect1 {
-    left: -100px;
-    top: -50px;
-    width: 167%;
-    rotate: 0deg;
-  }
-}
 
 .cercle-r {
   background-color: var(--color-primary);
@@ -1173,30 +1135,71 @@ a.disabled {
 .a-propos .wrapper .cercle-r {
   position: absolute;
   left: -50px;
+  top: 700px;
 }
 .a-propos .wrapper .carre-j {
   position: absolute;
   right: -50px;
   rotate: 45deg;
+  top: 700px;
 }
 .a-propos .wrapper .triangle-j {
   position: absolute;
   left: -65px;
-  top: 1200px;
+  top: 1900px;
   rotate: 70deg;
 }
 .a-propos .wrapper .triangle-r {
   position: absolute;
   right: 85px;
-  top: 1300px;
+  top: 1950px;
   rotate: 45deg;
+}
+.a-propos .wrapper .rectangle {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  position: relative;
+  width: 55%;
+  background-color: var(--color-white);
+  text-align: center;
+}
+.a-propos .wrapper .rectangle span {
+  color: var(--color-primary);
+}
+.a-propos .wrapper .rectangle {
+  padding: 20px;
+}
+@media (width <= 375px) {
+  .a-propos .wrapper .rectangle {
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+.a-propos .wrapper .rect1 {
+  background-color: var(--color-bg-secondary);
+  height: 300px;
+  width: 500%;
+  position: absolute;
+  top: -100px;
+  left: -1000px;
+  z-index: -1;
+  rotate: -3deg;
+}
+@media (width <= 375px) {
+  .a-propos .wrapper .rect1 {
+    left: -100px;
+    top: -50px;
+    width: 167%;
+    rotate: 0deg;
+  }
 }
 .a-propos .wrapper h2 {
   color: var(--color-black);
 }
 .a-propos .wrapper .title {
+  margin-top: 200px;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 @media (width <= 375px) {
   .a-propos .wrapper .title {
@@ -1436,7 +1439,7 @@ a.disabled {
 .a-propos .wrapper .mes-hobby {
   color: var(--color-white);
   position: relative;
-  margin-bottom: 280px;
+  margin-bottom: 180px;
 }
 @media (width <= 375px) {
   .a-propos .wrapper .mes-hobby {
@@ -1515,7 +1518,7 @@ a.disabled {
 }
 
 .recherche {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .recherche .wrapper {
   display: flex;
@@ -1530,7 +1533,7 @@ a.disabled {
   width: 150%;
   height: 35%;
   z-index: -1;
-  rotate: -3deg;
+  rotate: 3deg;
   top: -50px;
 }
 @media (width <= 375px) {
